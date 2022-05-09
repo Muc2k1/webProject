@@ -1,0 +1,145 @@
+.top-bar
+{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: aquamarine;
+}
+.logout
+{
+    border: none;
+    background-color: none;
+}
+.top-bar-item
+{
+    margin: 20px;
+}
+.contents
+{
+    display: flex;
+    flex-direction: row;
+}
+.left-contents
+{
+    background-color: rgb(35, 255, 182);
+    width: 18vw;
+    display: flex;
+    flex-direction: column;
+}
+.left-content
+{
+    transition: all 0.5s;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.left-content:hover
+{
+    background-color: rgb(21, 158, 113);
+    color: white;
+    font-weight: bold;
+}
+.right-contents
+{
+    width: 80vw;
+    overflow-y: scroll;
+    height: 85vh;
+}
+.items
+{
+    background-color: rgb(21, 158, 113);
+    min-height: 750px;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: auto auto auto;
+}
+.item
+{
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: dotted;
+    border-color: white;
+    margin: 20px;
+    padding: 10px;
+    color: white;
+}
+.item img
+{
+    border-radius: 25px;
+    border: solid 5px;
+    border-color: rgb(15, 113, 80);
+    max-width: 180px;
+    margin: 0;
+}
+.add-button
+{
+    margin: 0;
+    transition: all 0.5s;
+    cursor: pointer;
+    border: solid;
+    border-radius: 10px;
+    width: 50%;
+}
+.add-button:hover
+{
+    border: dotted;
+    border-radius: 10px;
+    width: 50%;
+    background-color: white;
+    color: rgb(21, 158, 113);
+}
+.float-button
+{
+    transition: all 0.5s;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background-color: white;
+    line-height: 50px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    font-weight: bold;
+    color: rgb(21, 158, 113);
+    border-color: rgb(15, 113, 80);
+    border: solid 5px;
+    cursor: pointer;
+}
+.float-button:hover
+{
+    bottom: 45px;
+    right: 45px;
+    line-height: 60px;
+    background-color: rgb(15, 113, 80);
+    border-radius: 40px;
+    width: 60px;
+    height: 60px;
+    color: white;
+    border-color: white;
+}
+.float-form
+{
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+    background-color: rgba(0, 0, 0, 0.315);
+    width: 100vw;
+    height: 100vh;
+}
+.create-item-form
+{
+    margin-top: 200px;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 25px;
+    border: solid 3px rgb(15, 113, 80);
+}

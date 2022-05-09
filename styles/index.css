@@ -1,0 +1,100 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+.top-bar
+{
+    width: 90vw;
+    height: 8vh;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.nav-element
+{
+    transition: all 0.2s;
+    text-align: center;
+    line-height: 60px;
+    background-color: white;
+    color:rgb(71, 71, 71);
+    width: 15vw;
+    height: 60px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.nav-element:hover
+{
+    background-color: aquamarine;
+    color:white;
+}
+.logo
+{
+    max-height: 200px;
+}
+.flex-box
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.content
+{
+    width: 90vw;
+    overflow-y: scroll;
+    height: 92vh;
+}
+.banner
+{
+    background-color: rgb(35, 255, 182);
+    min-height: 250px;
+    padding: 30px;
+}
+.items
+{
+    background-color: rgb(21, 158, 113);
+    min-height: 750px;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: auto auto auto;
+}
+.item
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: dotted;
+    border-color: white;
+    margin: 20px;
+    padding: 10px;
+    color: white;
+}
+.item img
+{
+    border-radius: 25px;
+    border: solid 5px;
+    border-color: rgb(21, 158, 113);
+    max-width: 180px;
+}
+.add-button
+{
+    transition: all 0.5s;
+    cursor: pointer;
+    border: solid;
+    border-radius: 10px;
+    width: 50%;
+}
+.add-button:hover
+{
+    border: dotted;
+    border-radius: 10px;
+    width: 50%;
+    background-color: white;
+    color: rgb(21, 158, 113);
+}
